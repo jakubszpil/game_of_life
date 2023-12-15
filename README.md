@@ -9,12 +9,11 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-Install specific modules with pip:
-
-f.e.:
+Install required modules with pip:
 
 ```cmd
 pip install pygame
+pip install numpy
 ```
 
 ## Requirements
@@ -33,17 +32,17 @@ pip install pygame
 
 3.  At each tick:
 
-    1. Update the grid - loop over each element of the board
+    - Update the grid - loop over each element of the board
 
-    2. Render new generation
+    - Render new generation
 
 ## General approach
 
 1.  Plan & write down the general workflow
 
-    1. Define Input&Output
+    - Define Input&Output
 
-    2. Consider adding validation
+    - Consider adding validation
 
 2.  Separate the main algorithms / actors in the code. Try to abstract as much common code as possible
 
