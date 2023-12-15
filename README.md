@@ -16,6 +16,12 @@ pip install pygame
 pip install numpy
 ```
 
+Run game with command:
+
+```
+python game.py
+```
+
 ## Requirements
 
 1.  Make simulation real time
